@@ -16,11 +16,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Stop
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/stop/master/_listings/aws-ec2-systems-manager/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS EC2 Systems Manager API - Stop Automation Execution
+  x-api-slug: actionstopautomationexecution-get
+  description: Stop an Automation that is currently executing.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/systems-manager/
+  baseURL: :///
+  tags: Amazon Web Services, Management, Cloud, Stack Network, Orchestration, API
+    Service Provider, API Service Provider, API Provider, Deployments, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stop/master/_listings/aws-ec2-systems-manager/actionstopautomationexecution-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.ec2.container.service.api.gallery.streamdata.io

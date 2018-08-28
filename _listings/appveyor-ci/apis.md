@@ -8,11 +8,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-
 x-kinRank: "7"
 x-alexaRank: "35479"
 tags: Stop
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/stop/master/_listings/appveyor-ci/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: App Veyor - Delete Deployments Stop
+  x-api-slug: deploymentsstop-delete
+  description: Delete deployments stop.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28368-app-veyor.jpg
+  humanURL: http://appveyor.com
+  baseURL: https://ci.appveyor.com//api
+  tags: Technology, SaaS, Orchestration, API Service Provider, Profiles, Relative
+    Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/stop/master/_listings/appveyor-ci/deploymentsstop-delete-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://apis.io.api.gallery.streamdata.io
